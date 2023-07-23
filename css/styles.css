@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainSec {
+  padding-top: 230px;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainSec h1 {
+  font-size: 120px;
+  font-weight: 800;
+  background: linear-gradient(to right, #672dbc, #dd025b);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.mainSec p {
+  font-size: 20px;
+}
+
+.mainSec .btnSolid,
+.mainSec .btnSolid:hover {
+  background: transparent;
+  border: 1px solid #000;
+}
+
+@media (max-width: 992px) {
+  .mainSec h1 {
+    font-size: 90px;
+  }
+  .mainSec p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainSec h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 495px) {
+  .mainSec h1 {
+    font-size: 60px;
+  }
+  .mainSec p {
+    font-size: 13px;
+  }
+}
